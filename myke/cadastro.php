@@ -1,17 +1,23 @@
 <!DOCTYPE html> 
 <?php session_start();?>
-<html xmlns="http://www.w3.org/1999/xhtml"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head> 
 	<title>Formulário Cadastro</title> 
 	<meta charset="utf-8" /> 
 	<link href="css/css_cadastro.css" rel="stylesheet" media="all" />
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="jquery-1.3.2.min.js" type="text/javascript"></script>   
-	<script>
-		$(".submit").click(function(){
-			alert("Clicou para enviar");
-   });
-</script>
+	<script language=”text/javascript”>
+		<!--
+		$pass=$_POST['senha'];
+		$pass1=$_POST['confsenha'];
+		function confsenha(){
+			if(pass==pass1) return "sucess";
+			return "failure";
+		}
+		-->
+	</script>
 </head> 
 <body> 
 	<div class="navbar-wrapper">
@@ -40,7 +46,7 @@
 
 	<!-- FORMULARIO DE CADASTRO   -->
 	<center>
-	<form name="form_cad" method="POST"> 
+	<form name="form_cad" method="POST" action=""> 
 		<br />
 		<h1  class="titulo-cadastro">CADASTRO</h1> 
 			<table>
@@ -55,7 +61,7 @@
 				</tr>
 				<tr class="email">
 					<td><label for="email">E-Mail:</label> </p></td>
-					<td><input type="text" id="emailid" placeholder="exemplo@exemplo.com" name="email" required/> </td>
+					<td><input type="email" id="emailid" placeholder="exemplo@exemplo.com" name="email" required /> </td>
 				</tr>
 				<tr class="cpf">
 					<td><label for="cpf">CPF:</label> </p></td>
@@ -74,7 +80,7 @@
 					<td><input type="password" id="confsenhaid" placeholder="5u453Nh4" name="confsenha" required/> </td>
 				</tr>
 			</table>
-	<p class="submit"> <input type="submit" onclick="Enviar();" value="Enviar" id="clicou"/> </p> 
+	<p class="submit"> <input type="submit" onclick="confsenha;" value="Enviar" id="clicou"/> </p> 
 	<br />
 	</form> 
 	</center>

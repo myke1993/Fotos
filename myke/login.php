@@ -33,9 +33,9 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
-            <li class="active"><a href="sobre.php">Sobre</a></li>
+            <li><a href="sobre.php">Sobre</a></li>
             <li><a href="cadastro.php">Cadastro</a></li>
-            <li><a href="login.php">Login</a></li>
+            <li class="active"><a href="login.php">Login</a></li>
           </ul>
         </div>
     </div>

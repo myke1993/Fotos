@@ -1,4 +1,5 @@
 <!DOCTYPE html> 
+<?php session_start();?>
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <head> 
 	<title>Formulário Cadastro</title> 
@@ -7,11 +8,9 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<script src="jquery-1.3.2.min.js" type="text/javascript"></script>   
 	<script>
-		$(document).ready(function(){
-		$(".submit").click(function(evento){
-			alert("Clicou o link...Agora será enviado a CriarWeb.com");
+		$(".submit").click(function(){
+			alert("Clicou para enviar");
    });
-});
 </script>
 </head> 
 <body> 
@@ -32,17 +31,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="sobre.php">Sobre</a></li>
             <li class="active"><a href="cadastro.php">Cadastro</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li><a href="login.php">Login</a></li>
           </ul>
         </div>
     </div>
@@ -55,6 +44,7 @@
 		<br />
 		<h1  class="titulo-cadastro">CADASTRO</h1> 
 			<table>
+			
 				<tr class="nome">
 					<td><label for="nome">Nome:</label></td>
 					<td><input type="text" id="nomeid" placeholder="ex: Myke Wyllian Dal'Agnol" required="required" name="nome" required /></td>

@@ -16,7 +16,7 @@
             validating: 'glyphicon glyphicon-refresh'
         },
         fields: {
-            password: {
+            senha: {
                 validators: {
                     identical: {
                         field: 'confsenha',
@@ -24,7 +24,7 @@
                     }
                 }
             },
-            confirmPassword: {
+            confsenha: {
                 validators: {
                     identical: {
                         field: 'senha',

@@ -19,7 +19,7 @@
             password: {
                 validators: {
                     identical: {
-                        field: 'confsenha',
+                        field: 'confirmPassword',
                         message: 'senhas não correspondem'
                     }
                 }
@@ -27,7 +27,7 @@
             confirmPassword: {
                 validators: {
                     identical: {
-                        field: 'senha',
+                        field: 'password',
                         message: 'senhas não correspondem'
                     }
                 }

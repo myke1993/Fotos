@@ -41,5 +41,18 @@
     </div>
   </div><!-- /container -->
 </div><!-- /navbar wrapper -->
+
+  />
+  <div class="panel panel-default">
+  <div class="panel-body">
+    Trabalho da Disciplina de Programação II com o intuito de desenvolver uma aplicação onde usuarios e fotografos possam ter um canal de ligação para compra e venda de fotografias.
+  </div>
+</div>
+
+ <div class="panel panel-default">
+  <div class="panel-body">
+    Desenvolvido por André Luiz Maso e Myke Wyllian Dal'Agnol
+  </div>
+</div>
   </body>
 </html>

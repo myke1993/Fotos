@@ -42,10 +42,15 @@
   </div><!-- /container -->
 </div><!-- /navbar wrapper -->
 
-  />
+  <p>
+<img src="Chrysanthemum.jpg"
+width="1500" height="500">
+</p>
+
   <div class="panel panel-default">
   <div class="panel-body">
     Trabalho da Disciplina de Programação II com o intuito de desenvolver uma aplicação onde usuarios e fotografos possam ter um canal de ligação para compra e venda de fotografias.
+    Este trabalho tem por objetivo proporcionar uma melhor comunicação entre o usuario que deseja adquirir as fotos e o fotografo que pode melhorar as imagens de acordo com o desejo do cliente
   </div>
 </div>
 

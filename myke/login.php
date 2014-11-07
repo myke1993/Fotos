@@ -42,6 +42,8 @@
   </div><!-- /container -->
 </div><!-- /navbar wrapper -->
 
+<div class= "container"
+
   <form class="form-horizontal" role="form">
   <div class="form-group">
     <label for="login" class="col-sm-2 control-label">Login</label>
@@ -70,5 +72,6 @@
     </div>
   </div>
 </form>
+</div>
   </body>
 </html>

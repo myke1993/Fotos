@@ -49,7 +49,9 @@ width="1500" height="500">
   <div class="panel panel-default">
   <div class="panel-body">
     Trabalho da Disciplina de Programação II com o intuito de desenvolver uma aplicação onde usuarios e fotografos possam ter um canal de ligação para compra e venda de fotografias.
-    Este trabalho tem por objetivo proporcionar uma melhor comunicação entre o usuario que deseja adquirir as fotos e o fotografo que pode melhorar as imagens de acordo com o desejo do cliente
+    Este trabalho tem por objetivo proporcionar uma melhor comunicação entre o usuario que deseja adquirir as fotos e o fotografo que pode melhorar as imagens de acordo com o desejo do cliente.
+    As fotos podem ter qualquer extenção para ser inseridas, no entanto, quando o cliente selecionar as fotos que este deseja adquirir, estas fotos devem ser melhoradas conforme a exigencia do cliente  
+    para somente depois ser disponilizada para download.
   </div>
 </div>
 

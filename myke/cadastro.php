@@ -6,8 +6,8 @@
 	<meta charset="utf-8" /> 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="jquery-1.3.2.min.js" type="text/javascript"></script>   
-	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
+
 </head> 
 <body> 
 	<div class="navbar-wrapper">
@@ -35,6 +35,7 @@
 </div><!-- /navbar wrapper -->
 
 	<!-- FORMULARIO DE CADASTRO   -->
+<<<<<<< HEAD
 <div class= "container">
   <div class="jumbotron">
     <form class="form-horizontal" role="form" method="POST" action="cadastra.php">
@@ -46,6 +47,31 @@
           </div>
         </div>
       </div>
+=======
+<div class= "container"
+<form class="form-horizontal" role="form" method="POST" action="">
+  <div class="form-group">
+    <label for="idnome" class="col-sm-2 control-label">Nome Completo</label>
+     <div class="col-sm-10">
+      <input type="text" class="form-control" id="idnome" placeholder="Myke Wylian Dal'agnoll">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="idtelefone" class="col-sm-2 control-label">Telefone</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="idtelefone" placeholder="(XX)XXXX-XXXX">
+    </div>
+  </div>
+<div class="form-group">
+    <label for="idemail" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+    <div class="input-group">
+     <div class="input-group-addon">@</div>
+      <input type="email" class="form-control" id="idemail" placeholder="Myke@bol.com">
+    </div>
+    </div>
+  </div>
+>>>>>>> 571348a698f9fc1446db92e287a6313c4a5c0b14
 
       <div class="form-group">
         <label for="idtelefone" class="col-sm-2 control-label">Telefone</label>
